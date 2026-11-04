@@ -1,1 +1,2122 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <!-- Fotod ja logo kasutavad Facebooki otseseid pildiaadresse. Facebook võib neid aadresse hiljem muuta; vajaduse korral uuenda src-väärtusi. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action https://formsubmit.co; connect-src 'none'; upgrade-insecure-requests">
+  <title>Vahtra Auto OÜ | Kere- ja värvitööd, autoremont Põlvas</title>
+  <meta name="description" content="Vahtra Auto OÜ Põlvas: kere- ja värvitööd, autode remont ja hooldus ning kahjukäsitlus. Vahtra 19. Helista 5853 4070 või küsi pakkumist.">
+  <meta name="author" content="Vahtra Auto OÜ">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#111111">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="et_EE">
+  <meta property="og:site_name" content="Vahtra Auto OÜ">
+  <meta property="og:title" content="Vahtra Auto | Kere- ja värvitööd ning autoremont Põlvas">
+  <meta property="og:description" content="Autode remont ja hooldus, kere- ja värvitööd ning kahjukäsitlus. Vahtra 19, Põlva. 5853 4070.">
+  <meta name="twitter:card" content="summary">
+  <!-- Oma domeeni ühendamisel lisa siia canonical, og:url ja avaliku aadressiga og:image. Domeeni ei ole eeldatud. -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='13'%20fill='%23111'/%3E%3Ctext%20x='32'%20y='43'%20text-anchor='middle'%20font-family='Arial,sans-serif'%20font-weight='900'%20font-size='32'%20fill='%23ff9700'%3EVA%3C/text%3E%3C/svg%3E">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "AutoRepair", "name": "Vahtra Auto OÜ", "legalName": "Vahtra auto OÜ", "identifier": "16545351", "taxID": "EE102809316", "telephone": "+37258534070", "email": "vahtraauto@gmail.com", "foundingDate": "2022-08-01", "address": {"@type": "PostalAddress", "streetAddress": "Vahtra tn 19", "addressLocality": "Põlva", "postalCode": "63303", "addressCountry": "EE"}, "description": "Autode remont ja hooldus, kere- ja värvitööd ning liiklus- ja kaskokahjude käsitlus Põlvas.", "sameAs": ["https://www.facebook.com/Vahtraauto/", "https://www.instagram.com/vahtraauto/"]}</script>
+  <style>
+    :root {
+      --black:#111;
+      --cream:#f4efe6;
+      --text:#22211f;
+      --muted:#655f57;
+      --line:#ded3c3;
+      --orange:#ff9700;
+      --orange-light:#ffb13b;
+      --accent-ink:#8b4d00;
+      --max:1160px
+    }
+    * {
+      box-sizing:border-box;
+      margin:0;
+      padding:0
+    }
+    html {
+      scroll-behavior:smooth;
+      scroll-padding-top:108px
+    }
+    body {
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--cream);
+      color:var(--text);
+      line-height:1.65;
+      -webkit-font-smoothing:antialiased
+    }
+    a {
+      color:inherit;
+      text-decoration:none
+    }
+    button,input,textarea {
+      font:inherit
+    }
+    button,a,input,textarea {
+      -webkit-tap-highlight-color:transparent
+    }
+    button {
+      cursor:pointer
+    }
+    img {
+      max-width:100%;
+      display:block
+    }
+    a:focus-visible,button:focus-visible,summary:focus-visible {
+      outline:3px solid var(--orange);
+      outline-offset:5px
+    }
+    ::selection {
+      background:var(--orange-light);
+      color:var(--black)
+    }
+    [hidden] {
+      display:none!important
+    }
+    .container {
+      width:min(var(--max),calc(100% - 48px));
+      margin-inline:auto
+    }
+    .icon {
+      width:22px;
+      height:22px;
+      flex-shrink:0
+    }
+    .sr-only {
+      position:absolute;
+      width:1px;
+      height:1px;
+      padding:0;
+      margin:-1px;
+      overflow:hidden;
+      clip-path:inset(50%);
+      white-space:nowrap;
+      border:0
+    }
+    .skip-link {
+      position:fixed;
+      z-index:100;
+      top:12px;
+      left:12px;
+      padding:12px 20px;
+      border-radius:10px;
+      background:var(--orange-light);
+      color:var(--black);
+      transform:translateY(-180%);
+      font-weight:700
+    }
+    .skip-link:focus {
+      transform:none
+    }
+    .topbar {
+      position:sticky;
+      top:0;
+      z-index:50;
+      background:rgba(17,17,17,.97);
+      border-bottom:1px solid #ffffff1f;
+      backdrop-filter:blur(16px);
+      transition:box-shadow .2s
+    }
+    .topbar.is-scrolled {
+      box-shadow:0 8px 28px #0003
+    }
+    .topbar nav {
+      min-height:92px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:28px
+    }
+    .brand {
+      width:180px;
+      height:59px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      overflow:hidden;
+      border-radius:5px;
+      flex-shrink:0;
+      background:transparent
+    }
+    .brand img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      filter:url(#brand-on-dark)
+    }
+    .brand-filter {
+      position:absolute;
+      width:0;
+      height:0;
+      pointer-events:none;
+      overflow:hidden
+    }
+    .nav-links {
+      display:flex;
+      align-items:center;
+      gap:25px
+    }
+    .nav-links a {
+      position:relative;
+      color:#ffffffc7;
+      font-size:.875rem;
+      font-weight:700;
+      transition:color .2s
+    }
+    .nav-links a:not(.nav-button)::after {
+      content:'';
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:-8px;
+      height:2px;
+      background:var(--orange);
+      transform:scaleX(0);
+      transform-origin:left;
+      transition:transform .2s
+    }
+    .nav-links a:hover,.nav-links a[aria-current=page] {
+      color:var(--orange-light)
+    }
+    .nav-links a:hover::after,.nav-links a[aria-current=page]::after {
+      transform:scaleX(1)
+    }
+    .nav-button {
+      padding:11px 21px;
+      border-radius:999px;
+      background:var(--orange);
+      color:var(--black)!important
+    }
+    .nav-button:hover {
+      background:var(--orange-light)
+    }
+    .menu-toggle {
+      display:none
+    }
+    .page {
+      padding:0
+    }
+    .page-enter {
+      animation:page-enter .3s ease both
+    }
+    @keyframes page-enter {
+      from {
+        opacity:.7;
+        transform:translateY(8px)
+      }
+      to {
+        opacity:1;
+        transform:none
+      }
+    }
+    h1,h2,h3 {
+      overflow-wrap:break-word;
+      text-wrap:balance
+    }
+    .eyebrow {
+      display:flex;
+      align-items:center;
+      gap:12px;
+      color:var(--accent-ink);
+      font-size:.79rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:1.25px;
+      margin-bottom:17px
+    }
+    .eyebrow::before {
+      content:'';
+      width:24px;
+      height:2px;
+      background:currentColor;
+      flex-shrink:0
+    }
+    .hero {
+      position:relative;
+      isolation:isolate;
+      overflow:hidden;
+      min-height:680px;
+      padding:72px 0 58px;
+      display:flex;
+      align-items:center;
+      background:var(--black);
+      color:#fff
+    }
+    .hero-image {
+      position:absolute;
+      inset:0 0 0 auto;
+      z-index:-2;
+      width:75%;
+      height:100%;
+      object-fit:cover;
+      object-position:center 57%;
+      animation:light-enter 12s ease-out both
+    }
+    @keyframes light-enter {
+      from {
+        transform:scale(1.035)
+      }
+      to {
+        transform:scale(1)
+      }
+    }
+    .hero::after {
+      content:'';
+      position:absolute;
+      inset:0;
+      z-index:-1;
+      background:linear-gradient(90deg,#111 0%,#111 26%,#111111e8 42%,#1111118a 64%,#1111110d 100%),linear-gradient(0deg,#1111118a,transparent 30%)
+    }
+    .hero-content {
+      max-width:800px
+    }
+    .hero .eyebrow {
+      color:var(--orange-light);
+      margin-bottom:24px
+    }
+    .hero .eyebrow::before {
+      display:none
+    }
+    .hero h1 {
+      max-width:780px;
+      font-size:clamp(3.2rem,6.7vw,6.1rem);
+      line-height:.99;
+      letter-spacing:-.055em;
+      margin-bottom:28px
+    }
+    .hero h1 span {
+      color:var(--orange-light)
+    }
+    .hero-text {
+      max-width:560px;
+      color:#ffffffcf;
+      font-size:1.04rem;
+      line-height:1.8;
+      margin-bottom:29px
+    }
+    .hero-actions {
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap
+    }
+    .btn {
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      min-height:53px;
+      padding:14px 25px;
+      border:1px solid transparent;
+      border-radius:999px;
+      font-size:.875rem;
+      font-weight:800;
+      transition:background .2s,border-color .2s,transform .2s
+    }
+    .btn .icon {
+      width:18px;
+      height:18px
+    }
+    .btn-primary {
+      background:var(--orange);
+      color:var(--black)
+    }
+    .btn-primary:hover {
+      background:var(--orange-light);
+      transform:translateY(-2px)
+    }
+    .btn-secondary {
+      background:#1116;
+      border-color:#ffffff40;
+      color:#fff;
+      backdrop-filter:blur(8px)
+    }
+    .btn-secondary:hover {
+      border-color:var(--orange-light);
+      transform:translateY(-2px)
+    }
+    .hero-list {
+      display:flex;
+      flex-wrap:wrap;
+      gap:9px;
+      margin-top:32px
+    }
+    .hero-list a {
+      display:inline-flex;
+      align-items:center;
+      gap:7px;
+      padding:8px 12px;
+      border:1px solid #ffffff33;
+      border-radius:999px;
+      background:#1116;
+      color:#ffffffe0;
+      font-size:.82rem
+    }
+    .hero-list .icon {
+      width:16px;
+      height:16px;
+      color:var(--orange-light)
+    }
+    .hero-list a:hover {
+      border-color:var(--orange-light)
+    }
+    .hero-location {
+      display:flex;
+      align-items:center;
+      gap:7px;
+      font-size:.8rem;
+      color:#ffffffa6;
+      margin-top:24px
+    }
+    .hero-location .icon {
+      width:15px;
+      height:15px
+    }
+    section.content {
+      padding:66px 0 72px
+    }
+    .section-head {
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-end;
+      gap:25px;
+      margin-bottom:32px
+    }
+    .section-head>div {
+      max-width:730px
+    }
+    .section-head h2 {
+      font-size:clamp(1.9rem,3.5vw,2.9rem);
+      letter-spacing:-1.2px;
+      line-height:1.13
+    }
+    .section-head p {
+      color:var(--muted);
+      margin-top:16px;
+      max-width:650px
+    }
+    .text-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      flex-shrink:0;
+      color:var(--accent-ink);
+      font-weight:700;
+      font-size:.9rem;
+      text-decoration:underline;
+      text-underline-offset:5px
+    }
+    .text-link .icon {
+      width:17px;
+      height:17px
+    }
+    .text-link:hover {
+      text-decoration-thickness:2px
+    }
+    .summary-grid {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px
+    }
+    .summary-card {
+      display:flex;
+      flex-direction:column;
+      align-items:flex-start;
+      padding:31px;
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:20px;
+      transition:transform .2s,box-shadow .2s,border-color .2s
+    }
+    .summary-card:hover {
+      transform:translateY(-4px);
+      border-color:#cfaa70;
+      box-shadow:0 18px 38px #402a0f12
+    }
+    .service-icon {
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      width:48px;
+      height:48px;
+      border-radius:13px;
+      background:var(--black);
+      color:var(--orange-light);
+      margin-bottom:24px
+    }
+    .service-icon .icon {
+      width:25px;
+      height:25px
+    }
+    .summary-card h3 {
+      font-size:1.3rem;
+      letter-spacing:-.4px;
+      line-height:1.2;
+      margin-bottom:13px
+    }
+    .summary-card p {
+      color:var(--muted);
+      font-size:.96rem;
+      margin-bottom:24px
+    }
+    .summary-card .text-link {
+      margin-top:auto
+    }
+    .home-work {
+      background:#ebe3d7
+    }
+    .home-gallery {
+      display:grid;
+      grid-template-columns:1.05fr .95fr;
+      gap:22px
+    }
+    .photo-wrap {
+      display:block;
+      position:relative;
+      overflow:hidden;
+      background:#e3ddd3
+    }
+    .photo-wrap img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      transition:transform .45s
+    }
+    .gallery-card {
+      display:block;
+      text-align:left;
+      border:1px solid var(--line);
+      border-radius:20px;
+      overflow:hidden;
+      background:#fff;
+      color:var(--text);
+      width:100%
+    }
+    .gallery-card .photo-wrap {
+      height:300px
+    }
+    .gallery-card:hover .photo-wrap img {
+      transform:scale(1.035)
+    }
+    .photo-open {
+      position:absolute;
+      right:15px;
+      top:15px;
+      width:36px;
+      height:36px;
+      background:#ffffffed;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:50%;
+      color:#111
+    }
+    .photo-open .icon {
+      width:18px;
+      height:18px
+    }
+    .photo-caption {
+      display:block;
+      padding:21px 24px
+    }
+    .photo-category {
+      display:block;
+      color:var(--accent-ink);
+      text-transform:uppercase;
+      letter-spacing:.9px;
+      font-size:.7rem;
+      font-weight:800;
+      margin-bottom:4px
+    }
+    .photo-caption strong {
+      display:block;
+      font-size:1.15rem;
+      line-height:1.35;
+      letter-spacing:-.3px
+    }
+    .home-contact {
+      padding:44px 0;
+      background:var(--black);
+      color:#fff
+    }
+    .home-contact-inner {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:30px
+    }
+    .home-contact h2 {
+      font-size:clamp(1.7rem,3.2vw,2.5rem);
+      line-height:1.15;
+      letter-spacing:-.9px;
+      margin-bottom:12px
+    }
+    .home-contact p {
+      max-width:660px;
+      color:#ffffffba
+    }
+    .home-contact .btn {
+      flex-shrink:0
+    }
+    .social-band {
+      padding:36px 0
+    }
+    .social-band-inner {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:25px
+    }
+    .social-band h2 {
+      font-size:1.15rem;
+      letter-spacing:-.3px
+    }
+    .social-band p {
+      font-size:.9rem;
+      color:var(--muted);
+      margin-top:3px
+    }
+    .social-links {
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap
+    }
+    .social-links a {
+      display:flex;
+      align-items:center;
+      gap:10px;
+      padding:11px 15px;
+      border:1px solid var(--line);
+      border-radius:11px;
+      font-size:.88rem;
+      font-weight:700;
+      transition:background .2s,border-color .2s
+    }
+    .social-links a:hover {
+      background:#fff;
+      border-color:#b47b29
+    }
+    .social-links .icon:first-child {
+      width:18px;
+      height:18px
+    }
+    .social-links .icon:last-child {
+      width:14px;
+      height:14px;
+      margin-left:10px
+    }
+    .subhero {
+      position:relative;
+      isolation:isolate;
+      overflow:hidden;
+      padding:61px 0 55px;
+      background:var(--black);
+      color:#fff
+    }
+    .subhero::after {
+      content:'';
+      position:absolute;
+      inset:0 0 0 58%;
+      z-index:-1;
+      background:radial-gradient(ellipse at 80% 0%,#ff970024,transparent 75%),repeating-linear-gradient(-45deg,transparent 0 30px,#ffffff08 30px 31px)
+    }
+    .subhero .eyebrow {
+      color:var(--orange-light)
+    }
+    .subhero h1 {
+      font-size:clamp(2.5rem,4.8vw,4.1rem);
+      line-height:1.06;
+      letter-spacing:-.045em;
+      max-width:850px;
+      margin-bottom:20px
+    }
+    .subhero p {
+      max-width:725px;
+      color:#ffffffc4;
+      font-size:1.04rem
+    }
+    .subhero h1:focus,.hero h1:focus {
+      outline:none
+    }
+    .inner-content {
+      padding:50px 0 66px
+    }
+    .service-list {
+      display:grid;
+      gap:18px
+    }
+    .service-item {
+      display:grid;
+      grid-template-columns:230px minmax(0,1fr);
+      gap:44px;
+      padding:35px;
+      background:#ffffffb3;
+      border:1px solid var(--line);
+      border-radius:20px;
+      scroll-margin-top:112px
+    }
+    .service-label {
+      font-size:1.2rem;
+      font-weight:800;
+      line-height:1.3
+    }
+    .service-text h2 {
+      font-size:clamp(1.5rem,2.7vw,2.1rem);
+      letter-spacing:-.7px;
+      line-height:1.2;
+      margin-bottom:15px
+    }
+    .service-text p {
+      color:var(--muted);
+      margin-bottom:21px;
+      max-width:730px
+    }
+    .chips {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-bottom:24px
+    }
+    .chips span {
+      padding:5px 11px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:#fff;
+      font-size:.79rem;
+      font-weight:600
+    }
+    .faq {
+      margin-top:54px;
+      max-width:850px
+    }
+    .faq h2 {
+      font-size:1.8rem;
+      letter-spacing:-.8px;
+      margin-bottom:20px
+    }
+    .faq details {
+      border-bottom:1px solid var(--line)
+    }
+    .faq summary {
+      padding:20px 32px 20px 0;
+      font-weight:700;
+      cursor:pointer
+    }
+    .faq details p {
+      padding:0 20px 20px 0;
+      color:var(--muted)
+    }
+    .gallery-grid {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:20px
+    }
+    .gallery-grid .photo-wrap {
+      height:280px
+    }
+    .gallery-grid .gallery-card:nth-child(2) .photo-wrap img,.gallery-grid .gallery-card:nth-child(3) .photo-wrap img {
+      object-position:50% 65%
+    }
+    .gallery-note {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:25px;
+      margin-top:30px;
+      padding:24px 0;
+      border-top:1px solid var(--line)
+    }
+    .gallery-note p {
+      color:var(--muted);
+      font-size:.92rem
+    }
+    .gallery-note .social-links {
+      flex-shrink:0
+    }
+    .about-grid {
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:22px
+    }
+    .about-box,.contact-box,.contact-prompt {
+      padding:40px;
+      border-radius:24px
+    }
+    .about-box,.contact-prompt {
+      background:#fff;
+      border:1px solid var(--line)
+    }
+    .about-box h2,.contact-box h2,.contact-prompt h2 {
+      font-size:clamp(1.9rem,3vw,2.7rem);
+      letter-spacing:-1px;
+      line-height:1.15;
+      margin-bottom:23px
+    }
+    .about-box p {
+      color:var(--muted);
+      margin-bottom:17px
+    }
+    .about-box p:last-child {
+      margin-bottom:0
+    }
+    .about-facts {
+      margin-top:28px;
+      border-top:1px solid var(--line)
+    }
+    .about-facts>div {
+      display:flex;
+      justify-content:space-between;
+      gap:20px;
+      padding:13px 0;
+      border-bottom:1px solid var(--line);
+      font-size:.9rem
+    }
+    .about-facts dt {
+      color:var(--muted)
+    }
+    .about-facts dd {
+      font-weight:700;
+      text-align:right
+    }
+    .about-photo {
+      border-radius:24px;
+      overflow:hidden;
+      position:relative;
+      background:#111;
+      min-height:450px
+    }
+    .about-photo img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      position:absolute;
+      inset:0
+    }
+    .about-photo figcaption {
+      position:absolute;
+      inset:auto 0 0;
+      padding:70px 28px 26px;
+      background:linear-gradient(transparent,#111111e6);
+      color:#fff;
+      font-size:.9rem
+    }
+    .contact-grid {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:22px
+    }
+    .contact-box {
+      background:var(--black);
+      color:#fff
+    }
+    .contact-box .eyebrow,.quote-info .eyebrow {
+      color:var(--orange-light)
+    }
+    .contact-box>p {
+      color:#ffffffbf;
+      margin-bottom:23px
+    }
+    .contact-person {
+      font-size:1.1rem;
+      font-weight:700;
+      margin-bottom:18px
+    }
+    .contact-data {
+      display:grid;
+      gap:11px
+    }
+    .contact-link {
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:13px 15px;
+      border:1px solid #ffffff29;
+      border-radius:12px;
+      font-size:1rem;
+      font-weight:700;
+      overflow-wrap:anywhere
+    }
+    .contact-link .icon {
+      color:var(--orange-light);
+      width:20px;
+      height:20px
+    }
+    .contact-link span {
+      min-width:0
+    }
+    .contact-link:hover {
+      border-color:var(--orange-light);
+      background:#ff970012
+    }
+    .contact-box .social-links {
+      margin-top:25px
+    }
+    .contact-box .social-links a {
+      border-color:#ffffff33;
+      color:#fff
+    }
+    .contact-box .social-links a:hover {
+      background:#ffffff0d;
+      border-color:var(--orange-light)
+    }
+    .contact-prompt {
+      display:flex;
+      flex-direction:column;
+      align-items:flex-start
+    }
+    .contact-prompt p {
+      color:var(--muted);
+      margin-bottom:26px
+    }
+    .location-card {
+      width:100%;
+      padding:22px;
+      background:var(--cream);
+      border:1px solid var(--line);
+      border-radius:15px;
+      margin-top:auto
+    }
+    .location-card .icon {
+      color:var(--accent-ink);
+      margin-bottom:12px;
+      width:29px;
+      height:29px
+    }
+    .location-card h3 {
+      font-size:1.1rem;
+      margin-bottom:4px
+    }
+    .location-card p {
+      margin-bottom:17px;
+      font-size:.9rem
+    }
+    .quote-box {
+      display:grid;
+      grid-template-columns:.85fr 1.15fr;
+      border:1px solid var(--line);
+      border-radius:24px;
+      overflow:hidden;
+      background:#fff;
+      box-shadow:0 16px 44px #402a0f0d
+    }
+    .quote-info {
+      padding:40px;
+      background:radial-gradient(circle at 0 100%,#ff970014,transparent 60%),var(--black);
+      color:#fff
+    }
+    .quote-info h2 {
+      font-size:clamp(1.9rem,3vw,2.7rem);
+      line-height:1.12;
+      letter-spacing:-1px;
+      margin-bottom:21px
+    }
+    .quote-info p {
+      color:#ffffffbf;
+      margin-bottom:28px
+    }
+    .quote-info .contact-link {
+      font-size:.91rem
+    }
+    .quote-info .contact-data {
+      margin:25px 0
+    }
+    .quote-info .small-note {
+      font-size:.86rem;
+      color:#ffffffa6
+    }
+    .quote-info .social-links a {
+      color:#fff;
+      border-color:#ffffff33
+    }
+    .quote-info .social-links a:hover {
+      background:#ffffff0a;
+      border-color:var(--orange-light)
+    }
+    .quote-info .social-links .icon:last-child {
+      display:none
+    }
+    .form-wrap {
+      padding:38px;
+      min-width:0
+    }
+    form {
+      display:grid;
+      gap:19px
+    }
+    .form-row {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:16px
+    }
+    label {
+      display:grid;
+      gap:8px;
+      min-width:0;
+      color:#4f4941;
+      font-size:.87rem;
+      font-weight:700
+    }
+    .optional {
+      color:var(--muted);
+      font-weight:400;
+      font-size:.79rem
+    }
+    input,textarea {
+      width:100%;
+      min-width:0;
+      border:1px solid #d8cbbb;
+      border-radius:10px;
+      background:#fbf9f5;
+      color:var(--text);
+      padding:13px 14px;
+      outline:none;
+      font-size:1rem;
+      transition:background .2s,border-color .2s,box-shadow .2s
+    }
+    input::placeholder,textarea::placeholder {
+      color:#777066;
+      opacity:1
+    }
+    input:focus,textarea:focus {
+      background:#fff;
+      border-color:var(--orange);
+      box-shadow:0 0 0 4px #ff97001c
+    }
+    textarea {
+      min-height:145px;
+      resize:vertical
+    }
+    input[type=file] {
+      font-size:.82rem;
+      padding:10px
+    }
+    input[type=file]::file-selector-button {
+      padding:8px 11px;
+      margin-right:10px;
+      border:0;
+      border-radius:6px;
+      background:#eae2d6;
+      color:var(--text);
+      font-weight:700;
+      cursor:pointer
+    }
+    .upload-note {
+      font-size:.77rem;
+      color:var(--muted);
+      font-weight:400
+    }
+    .file-status {
+      font-size:.8rem;
+      color:var(--muted);
+      overflow-wrap:anywhere
+    }
+    .file-status.is-error {
+      color:#a52618
+    }
+    .submit-btn {
+      justify-self:start;
+      border:0;
+      min-height:53px
+    }
+    .form-note {
+      color:var(--muted);
+      font-size:.78rem;
+      line-height:1.6
+    }
+    .form-note a {
+      text-decoration:underline;
+      text-underline-offset:3px;
+      color:var(--accent-ink)
+    }
+    .honey {
+      display:none!important
+    }
+    .chosen-service {
+      display:flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 12px;
+      background:#fff1da;
+      border-radius:9px;
+      color:#754300;
+      font-size:.83rem
+    }
+    .chosen-service .icon {
+      width:16px;
+      height:16px
+    }
+    .chosen-service button {
+      background:none;
+      border:0;
+      color:inherit;
+      margin-left:auto;
+      display:flex;
+      padding:5px
+    }
+    .chosen-service button .icon {
+      width:15px;
+      height:15px
+    }
+    .privacy-text {
+      max-width:820px;
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:20px;
+      padding:38px
+    }
+    .privacy-text h2 {
+      font-size:1.3rem;
+      margin:26px 0 10px
+    }
+    .privacy-text h2:first-child {
+      margin-top:0
+    }
+    .privacy-text p {
+      color:var(--muted);
+      margin-bottom:14px
+    }
+    .privacy-text a {
+      color:var(--accent-ink);
+      text-decoration:underline;
+      text-underline-offset:3px
+    }
+    .success-box {
+      text-align:center;
+      max-width:720px;
+      margin:auto;
+      padding:45px;
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:24px
+    }
+    .success-icon {
+      width:60px;
+      height:60px;
+      display:grid;
+      place-items:center;
+      margin:0 auto 20px;
+      background:#fff0d8;
+      color:#8b4d00;
+      border-radius:50%
+    }
+    .success-box h1 {
+      font-size:2.6rem;
+      letter-spacing:-1px;
+      line-height:1.15;
+      margin-bottom:20px
+    }
+    .success-box p {
+      color:var(--muted);
+      margin-bottom:28px
+    }
+    footer {
+      padding:30px 0;
+      background:var(--black);
+      color:#ffffffbf;
+      border-top:1px solid #ffffff21;
+      font-size:.85rem
+    }
+    .footer-top {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:30px
+    }
+    .footer-brand {
+      display:flex;
+      align-items:center;
+      gap:25px
+    }
+    .footer-brand .brand {
+      width:147px;
+      height:48px
+    }
+    .footer-brand p {
+      font-size:.82rem;
+      line-height:1.7
+    }
+    .footer-brand a:not(.brand):hover {
+      color:var(--orange-light)
+    }
+    .footer-nav {
+      display:flex;
+      gap:23px;
+      font-size:.84rem;
+      font-weight:700
+    }
+    .footer-nav a:hover {
+      color:var(--orange-light)
+    }
+    .footer-bottom {
+      display:flex;
+      justify-content:space-between;
+      gap:20px;
+      flex-wrap:wrap;
+      padding-top:23px;
+      margin-top:25px;
+      border-top:1px solid #ffffff1a;
+      font-size:.74rem
+    }
+    .footer-bottom a:hover {
+      color:#fff
+    }
+    .footer-bottom-links {
+      display:flex;
+      gap:23px
+    }
+    .lightbox {
+      width:min(1100px,calc(100vw - 44px));
+      max-width:none;
+      max-height:calc(100dvh - 36px);
+      padding:0;
+      border:1px solid #ffffff33;
+      border-radius:16px;
+      background:#171717;
+      color:#fff;
+      margin:auto;
+      overflow:auto
+    }
+    .lightbox::backdrop {
+      background:#090909e8;
+      backdrop-filter:blur(7px)
+    }
+    .lightbox-top {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+      padding:15px 22px;
+      border-bottom:1px solid #ffffff20
+    }
+    .lightbox-top h2 {
+      font-size:1rem;
+      line-height:1.4
+    }
+    .lightbox-close,.lightbox-nav {
+      border:1px solid #ffffff40;
+      background:#ffffff0d;
+      color:#fff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      flex-shrink:0
+    }
+    .lightbox-close:hover,.lightbox-nav:hover {
+      background:#ffffff20
+    }
+    .lightbox-stage {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      padding:18px;
+      min-height:200px
+    }
+    .lightbox-stage img {
+      min-width:0;
+      max-width:calc(100% - 104px);
+      max-height:calc(100dvh - 190px);
+      width:auto;
+      height:auto;
+      object-fit:contain
+    }
+    .lightbox-nav.previous .icon {
+      transform:rotate(180deg)
+    }
+    .lightbox-bottom {
+      padding:0 22px 17px;
+      color:#ffffffb3;
+      text-align:center;
+      font-size:.78rem
+    }
+    @media(max-width:1050px) {
+      .nav-links {
+        gap:17px
+      }
+      .brand {
+        width:160px;
+        height:53px
+      }
+      .hero h1 {
+        font-size:clamp(3.4rem,7.5vw,5.6rem)
+      }
+      .hero {
+        min-height:650px
+      }
+      .summary-card {
+        padding:25px
+      }
+      .service-item {
+        grid-template-columns:195px 1fr;
+        gap:30px
+      }
+      .gallery-grid {
+        grid-template-columns:repeat(2,minmax(0,1fr))
+      }
+      .quote-info {
+        padding:30px
+      }
+      .form-wrap {
+        padding:30px
+      }
+      .quote-info .contact-link {
+        font-size:.81rem;
+        padding-inline:11px
+      }
+      .footer-nav {
+        gap:16px
+      }
+    }
+    @media(max-width:800px) {
+      html {
+        scroll-padding-top:90px
+      }
+      .container {
+        width:calc(100% - 36px)
+      }
+      .topbar nav {
+        min-height:80px;
+        gap:18px;
+        padding:12px 0;
+        flex-wrap:wrap
+      }
+      .brand {
+        width:155px;
+        height:51px
+      }
+      .menu-toggle {
+        display:inline-flex;
+        align-items:center;
+        gap:9px;
+        min-height:44px;
+        padding:9px 13px;
+        border:1px solid #ffffff40;
+        border-radius:10px;
+        color:#fff;
+        background:transparent;
+        font-size:.85rem;
+        font-weight:700
+      }
+      .menu-lines {
+        display:grid;
+        gap:5px;
+        width:17px
+      }
+      .menu-lines span {
+        display:block;
+        height:2px;
+        background:currentColor
+      }
+      .nav-links {
+        flex-basis:100%;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:10px
+      }
+      .nav-links a {
+        padding:11px;
+        font-size:.94rem
+      }
+      .nav-links a:not(.nav-button)::after {
+        display:none
+      }
+      .nav-button {
+        grid-column:1/-1;
+        text-align:center
+      }
+      .js .nav-links {
+        display:none;
+        position:absolute;
+        top:100%;
+        left:0;
+        right:0;
+        padding:18px;
+        background:#171717;
+        border-bottom:1px solid #ffffff26;
+        box-shadow:0 18px 28px #0003
+      }
+      .js .nav-links.is-open {
+        display:grid
+      }
+      .hero {
+        min-height:620px;
+        padding:54px 0 45px
+      }
+      .hero h1 {
+        font-size:clamp(3rem,9vw,4.7rem);
+        max-width:620px
+      }
+      .hero-image {
+        width:100%;
+        object-position:60% center
+      }
+      .hero::after {
+        background:linear-gradient(90deg,#111111f5,#111111bb),linear-gradient(0deg,#111,transparent 60%)
+      }
+      .hero-text {
+        font-size:1rem;
+        max-width:540px
+      }
+      .hero-list a {
+        font-size:.79rem
+      }
+      .summary-grid {
+        grid-template-columns:1fr
+      }
+      .summary-card {
+        padding:27px
+      }
+      .summary-card h3 {
+        font-size:1.3rem
+      }
+      .summary-card p {
+        max-width:620px
+      }
+      .section-head {
+        align-items:flex-start;
+        flex-direction:column;
+        gap:18px
+      }
+      .section-head h2 {
+        font-size:2.3rem
+      }
+      section.content {
+        padding:45px 0 50px
+      }
+      .home-gallery {
+        grid-template-columns:1fr 1fr;
+        gap:15px
+      }
+      .home-gallery .photo-wrap {
+        height:230px
+      }
+      .photo-caption {
+        padding:18px
+      }
+      .photo-caption strong {
+        font-size:1.05rem
+      }
+      .home-contact-inner {
+        flex-direction:column;
+        align-items:flex-start;
+        gap:23px
+      }
+      .social-band-inner {
+        flex-direction:column;
+        align-items:flex-start;
+        gap:20px
+      }
+      .subhero {
+        padding:43px 0 40px
+      }
+      .subhero h1 {
+        font-size:clamp(2.3rem,7vw,3.3rem)
+      }
+      .inner-content {
+        padding:33px 0 47px
+      }
+      .service-item {
+        grid-template-columns:1fr;
+        padding:27px;
+        gap:24px
+      }
+      .service-title {
+        display:flex;
+        align-items:center;
+        gap:16px
+      }
+      .service-title .service-icon {
+        margin-bottom:0;
+        flex-shrink:0
+      }
+      .service-text h2 {
+        font-size:1.65rem
+      }
+      .about-grid,.contact-grid,.quote-box {
+        grid-template-columns:1fr
+      }
+      .about-photo {
+        min-height:420px
+      }
+      .about-box,.contact-box,.contact-prompt,.quote-info,.form-wrap {
+        padding:29px
+      }
+      .quote-info .contact-link {
+        font-size:.94rem
+      }
+      .quote-info .contact-data {
+        max-width:420px
+      }
+      .quote-info .small-note {
+        margin-bottom:0
+      }
+      .gallery-note {
+        flex-direction:column;
+        align-items:flex-start
+      }
+      .gallery-grid .photo-wrap {
+        height:250px
+      }
+      .footer-top {
+        align-items:flex-start;
+        flex-direction:column
+      }
+      .footer-nav {
+        flex-wrap:wrap;
+        gap:16px 23px
+      }
+      .footer-bottom {
+        font-size:.73rem
+      }
+      .footer-brand {
+        gap:20px
+      }
+    }
+    @media(max-width:480px) {
+      .container {
+        width:calc(100% - 32px)
+      }
+      .hero {
+        min-height:655px;
+        padding:44px 0 38px
+      }
+      .hero h1 {
+        font-size:clamp(2.85rem,11.7vw,3.8rem);
+        letter-spacing:-.05em;
+        margin-bottom:23px
+      }
+      .hero .eyebrow {
+        font-size:.72rem;
+        letter-spacing:.9px;
+        margin-bottom:21px
+      }
+      .hero-text {
+        font-size:.95rem;
+        line-height:1.75
+      }
+      .hero-actions {
+        flex-direction:column
+      }
+      .hero-actions .btn {
+        width:100%
+      }
+      .hero-list {
+        gap:8px;
+        margin-top:25px
+      }
+      .hero-list a {
+        font-size:.73rem;
+        padding:7px 10px
+      }
+      .hero-list .icon {
+        display:none
+      }
+      .hero-location {
+        font-size:.76rem
+      }
+      .section-head h2 {
+        font-size:2rem
+      }
+      .home-gallery,.gallery-grid {
+        grid-template-columns:1fr
+      }
+      .home-gallery .photo-wrap,.gallery-grid .photo-wrap {
+        height:290px
+      }
+      .summary-card {
+        padding:25px
+      }
+      .home-contact {
+        padding:35px 0
+      }
+      .home-contact .btn {
+        width:100%
+      }
+      .social-links {
+        gap:9px
+      }
+      .social-links a {
+        font-size:.82rem;
+        padding:10px 12px
+      }
+      .social-links .icon:last-child {
+        margin-left:2px
+      }
+      .form-row {
+        grid-template-columns:1fr;
+        gap:19px
+      }
+      .about-box,.contact-box,.contact-prompt,.quote-info,.form-wrap {
+        padding:24px
+      }
+      .about-facts>div {
+        font-size:.82rem
+      }
+      .contact-link {
+        font-size:.9rem;
+        padding-inline:12px
+      }
+      .submit-btn {
+        width:100%
+      }
+      .footer-brand {
+        align-items:flex-start;
+        flex-direction:column;
+        gap:15px
+      }
+      .footer-bottom-links {
+        flex-wrap:wrap;
+        gap:13px
+      }
+      .privacy-text {
+        padding:24px
+      }
+      .lightbox {
+        width:calc(100vw - 20px);
+        max-height:calc(100dvh - 20px)
+      }
+      .lightbox-top {
+        padding:12px 15px
+      }
+      .lightbox-stage {
+        gap:7px;
+        padding:10px 6px
+      }
+      .lightbox-nav {
+        width:32px;
+        height:38px;
+        border-radius:8px
+      }
+      .lightbox-stage img {
+        max-width:calc(100% - 78px)
+      }
+      .lightbox-bottom {
+        padding-bottom:12px
+      }
+      .success-box {
+        padding:29px 23px
+      }
+      .success-box h1 {
+        font-size:2rem
+      }
+    }
+    @media(prefers-reduced-motion:reduce) {
+      html {
+        scroll-behavior:auto
+      }
+      *,*::before,*::after {
+        animation:none!important;
+        transition:none!important
+      }
+      .summary-card:hover,.btn:hover {
+        transform:none
+      }
+    }
+  </style>
+</head>
+<body id="top">
+<svg class="brand-filter" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><defs><filter id="brand-on-dark" color-interpolation-filters="sRGB" x="-2%" y="-2%" width="104%" height="104%"><feColorMatrix type="matrix" values="0 0 0 0 1 -1 1 0 0 1 -1 0 1 0 1 0 0 -1 0 1"/><feComponentTransfer><feFuncA type="linear" slope="1.04" intercept="-0.04"/></feComponentTransfer></filter></defs></svg>
+<a class="skip-link" href="#main" data-skip>Liigu sisuni</a>
+<div class="topbar"><div class="container"><nav aria-label="Põhinavigatsioon">
+<a class="brand" href="#avaleht" aria-label="Vahtra Auto – avaleht"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/297354398_108931111915317_3332901794311131188_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx932x932&amp;ctp=s932x932&amp;_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=6ee11a&amp;_nc_ohc=cBNOq56i5CgQ7kNvwGD9HJT&amp;_nc_oc=AdrX4FdbfJLadwhdbTRH2XTEaHWaTOa3M5g6cSAbBBMYnd0Gd5l9auxr8HuirgQHb0pJKxVPMwze3NlRINqcUUmK&amp;_nc_zt=23&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=5xFh9RUamlGufoAK_BPPlg&amp;_nc_ss=7b289&amp;oh=00_AQS3pfwl8c_yRR2HHsuLqNf0zFMOsfMtD4R_gypEkmAKgQ&amp;oe=6AF0D55B" width="932" height="932" alt="Vahtra Auto" decoding="async"></a>
+<button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Ava menüü" hidden><span class="menu-lines" aria-hidden="true"><span></span><span></span></span><span>Menüü</span></button>
+<div class="nav-links" id="main-nav">
+<a href="#teenused" data-nav-page="teenused">Teenused</a><a href="#tehtud-tood" data-nav-page="tehtud-tood">Tehtud tööd</a><a href="#ettevottest" data-nav-page="ettevottest">Ettevõttest</a><a href="#kontakt" data-nav-page="kontakt">Kontakt</a><a href="#pakkumine" data-nav-page="pakkumine" class="nav-button">Küsi pakkumist</a>
+</div>
+</nav></div></div>
+<main id="main" tabindex="-1">
+<section class="page" id="avaleht" data-page="home" aria-labelledby="home-title">
+  <header class="hero">
+    <img class="hero-image" src="https://scontent-den2-1.xx.fbcdn.net/v/t51.75761-15/499587635_17983290635820027_3852417639998437315_n.webp?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s1440x1440&amp;_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=Ziq6PmlGj_AQ7kNvwEYeu4L&amp;_nc_oc=AdrY6w8Q2R7HA8kS6fm5vWhujFDvbgVrvd6eIdD7tvhLKrBGB_0isSFkcVi85ENPpu6Hi2d4RkUhmFHw65bynB-T&amp;_nc_zt=23&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=2ZDE02tTzmrU2eEiHHwTvQ&amp;_nc_ss=7b289&amp;oh=00_AQRn_xF0jtEIW7kPeago8RHQufjnQvIZT5X4Oahzclzusw&amp;oe=6AF0F288" width="1440" height="1440" alt="Hõbedane Volkswagen Vahtra Auto tehtud tööde galeriist" fetchpriority="high" decoding="async">
+    <div class="container"><div class="hero-content">
+      <div class="eyebrow">Vahtra Auto · Põlva</div>
+      <h1 id="home-title" tabindex="-1">Keretööd.<br>Värvitööd.<br><span>Autoremont.</span>
+</h1>
+      <p class="hero-text">Teeme kere- ja värvitöid, remondime ja hooldame autosid ning aitame liiklus- ja kaskokahjude korral.</p>
+      <div class="hero-actions">
+<a href="#pakkumine" class="btn btn-primary">Küsi pakkumist <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a><a href="tel:+37258534070" class="btn btn-secondary"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7A2 2 0 0 1 22 16.9Z"/></svg>Helista 5853 4070</a>
+</div>
+      <div class="hero-list" aria-label="Teenuste kiirlingid">
+<a href="#keretood"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3h10v5H6zM11 8v4m-5 0h12v6H6zM14 18v4M6 15H3m15-1 3-2m-3 5 3 2M16 5h3"/></svg>Kere- ja värvitööd</a><a href="#remont"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14.7 6.3a5.5 5.5 0 0 0-6.9 6.9L3 18l3 3 4.8-4.8a5.5 5.5 0 0 0 6.9-6.9L14 13l-3-3 3.7-3.7Z"/></svg>Remont ja hooldus</a><a href="#kahjukasitlus"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3 3 7v6c0 5 9 9 9 9s9-4 9-9V7l-9-4Z"/><path d="m8 12 3 3 5-6"/></svg>Kahjukäsitlus</a>
+</div>
+      <a class="hero-location" href="#kontakt"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Vahtra 19, Põlva</a>
+    </div></div>
+  </header>
+  <section class="content"><div class="container">
+<div class="section-head">
+<div>
+<h2>Teenused</h2>
+</div>
+<a class="text-link" href="#teenused">Kõik teenused <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div>
+  <div class="summary-grid">
+    <article class="summary-card"><span class="service-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3h10v5H6zM11 8v4m-5 0h12v6H6zM14 18v4M6 15H3m15-1 3-2m-3 5 3 2M16 5h3"/></svg></span><h3>Kere- ja värvitööd</h3>
+<p>Parandame kriime ja mõlke, taastame keret ning värvime detaile.</p>
+<a class="text-link" href="#keretood">Vaata lähemalt <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a></article>
+    <article class="summary-card"><span class="service-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14.7 6.3a5.5 5.5 0 0 0-6.9 6.9L3 18l3 3 4.8-4.8a5.5 5.5 0 0 0 6.9-6.9L14 13l-3-3 3.7-3.7Z"/></svg></span><h3>Remont ja hooldus</h3>
+<p>Kui auto vajab remonti või on aeg hoolduseks, võta meiega ühendust.</p>
+<a class="text-link" href="#remont">Vaata lähemalt <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a></article>
+    <article class="summary-card"><span class="service-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3 3 7v6c0 5 9 9 9 9s9-4 9-9V7l-9-4Z"/><path d="m8 12 3 3 5-6"/></svg></span><h3>Kahjukäsitlus</h3>
+<p>Tegeleme liiklus- ja kaskokahjudega ning remondime avariilisi autosid.</p>
+<a class="text-link" href="#kahjukasitlus">Vaata lähemalt <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a></article>
+  </div>
+</div></section>
+  <section class="content home-work"><div class="container">
+<div class="section-head">
+<div>
+<div class="eyebrow">Tehtud tööd</div>
+<h2>Mõned meie tehtud tööd.</h2>
+<p>Kere- ja värvitööd meie töökojast.</p>
+</div>
+<a class="text-link" href="#tehtud-tood">Ava galerii <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div>
+<div class="home-gallery">
+<button class="gallery-card" type="button" data-photo="2" aria-label="Vaata suuremalt: Detailid pärast värvimist"><span class="photo-wrap"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/610539276_18008496851820027_6850134926643574051_n.jpg?stp=dst-jpegr_tt6&amp;cstp=mx1440x1913&amp;ctp=s1440x1913&amp;_nc_cat=106&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=b87Whihm4P0Q7kNvwHL0nfk&amp;_nc_oc=AdqVPtk84C7rnsahBo0-9vtBjDpWuBlcMfk8JfCNaebDTj4zSdQAQ_OrSnu2cWBwSCYfhxmbLe-BfO12KiLD5XrG&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=sIHMmHEs4_eE4utfQDMW8g&amp;_nc_ss=7b289&amp;oh=00_AQQwXqyMahLqm-_g5vkaKGceuUBbk0rTcaPypJak0UgEag&amp;oe=6AF0CBD5" alt="Roheliseks värvitud veokidetailid värvimiskambris" width="1440" height="1913" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></span><span class="photo-caption"><span class="photo-category">Värvimine</span><strong>Detailid pärast värvimist</strong></span></button><button class="gallery-card" type="button" data-photo="3" aria-label="Vaata suuremalt: Scania"><span class="photo-wrap"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/610599651_18008496824820027_7176358757351011870_n.webp?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s1440x1440&amp;_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=HGWKnHX8SrUQ7kNvwEV7mPP&amp;_nc_oc=AdrKGHVqV96Mk7NMnjXUqkSmDLjoar8d3S0tbkKLx4i4nuxivZ65okjuH70fnEM2140pzsJmGWIQ6XV0cCxBOWOh&amp;_nc_zt=23&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=J0yrwKUFbD5DLlHlOr8rOQ&amp;_nc_ss=7b289&amp;oh=00_AQTSXkdQTxNsV63bMEhGDrGphVa5Z0EkrekB5YKTSz5W-A&amp;oe=6AF0C1C0" alt="Roheline Scania veok pärast detailide värvimist" width="1440" height="1440" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></span><span class="photo-caption"><span class="photo-category">Valmis töö</span><strong>Scania</strong></span></button>
+</div>
+</div></section>
+  <section class="home-contact"><div class="container home-contact-inner">
+<div>
+<h2>Auto vajab remonti?</h2>
+<p>Helista või kirjuta, mis autoga on tegu ja mida on vaja teha. Kui sul on kahjustusest foto, saada see ka.</p>
+</div>
+<a href="#pakkumine" class="btn btn-primary">Saada päring <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div></section>
+  <section class="social-band"><div class="container social-band-inner">
+<div>
+<h2>Rohkem pilte ja uudiseid</h2>
+<p>Vaata meie Facebooki ja Instagrami.</p>
+</div>
+<div class="social-links">
+<a href="https://www.facebook.com/Vahtraauto/" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 22v-9h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.5A23 23 0 0 0 15 1c-3 0-5 1.8-5 5v3H7v4h3v9"/></svg><span>Facebook<span class="sr-only"> (avaneb uuel vahelehel)</span></span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a><a href="https://www.instagram.com/vahtraauto/" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg><span>Instagram<span class="sr-only"> (avaneb uuel vahelehel)</span></span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div>
+</div></section>
+</section>
+
+<section class="page" id="teenused" data-page="teenused" aria-labelledby="services-title">
+<header class="subhero"><div class="container">
+<h1 id="services-title" tabindex="-1">Teenused</h1>
+<p>Teeme autode remonti ja hooldust ning kere- ja värvitöid. Aitame ka liiklus- ja kaskokahjude korral.</p>
+</div></header>
+<div class="inner-content"><div class="container">
+<div class="service-list">
+<article class="service-item" id="keretood"><div class="service-title">
+<span class="service-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3h10v5H6zM11 8v4m-5 0h12v6H6zM14 18v4M6 15H3m15-1 3-2m-3 5 3 2M16 5h3"/></svg></span><div class="service-label">Kere- ja värvitööd</div>
+</div>
+<div class="service-text">
+<h2>Parandame keret ja värvime detaile.</h2>
+<p>Parandame kriime, mõlke ja avariikahjustusi. Teeme vajalikud keretööd, valmistame pinnad ette ja värvime detailid. Meie töid näed galeriis.</p>
+<div class="chips">
+<span>Kereremont</span><span>Detailide värvimine</span><span>Pahteldamine ja kruntimine</span><span>Viimistlus</span>
+</div>
+<a class="text-link" href="#pakkumine?teenus=keretood">Küsi pakkumist <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div></article>
+<article class="service-item" id="remont"><div class="service-title">
+<span class="service-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14.7 6.3a5.5 5.5 0 0 0-6.9 6.9L3 18l3 3 4.8-4.8a5.5 5.5 0 0 0 6.9-6.9L14 13l-3-3 3.7-3.7Z"/></svg></span><div class="service-label">Remont ja hooldus</div>
+</div>
+<div class="service-text">
+<h2>Autode remont ja hooldus</h2>
+<p>Kui auto vajab remonti või hooldust, helista või kirjuta. Kirjelda viga või anna teada, millist hooldust soovid, ja lepime sobiva aja kokku.</p>
+<div class="chips">
+<span>Sõiduautod</span><span>Remont</span><span>Hooldus</span>
+</div>
+<a class="text-link" href="#pakkumine?teenus=remont">Küsi pakkumist <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div></article>
+<article class="service-item" id="kahjukasitlus"><div class="service-title">
+<span class="service-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3 3 7v6c0 5 9 9 9 9s9-4 9-9V7l-9-4Z"/><path d="m8 12 3 3 5-6"/></svg></span><div class="service-label">Kahjukäsitlus</div>
+</div>
+<div class="service-text">
+<h2>Liiklus- ja kaskokahjud</h2>
+<p>Tegeleme liiklus- ja kaskokahjude käsitluse ning avariiremondiga. Võta ühendust ja kirjelda juhtunut. Kui võimalik, lisa kahjustusest foto.</p>
+<div class="chips">
+<span>Liikluskahjud</span><span>Kaskokahjud</span><span>Avariiliste autode taastamine</span>
+</div>
+<a class="text-link" href="#pakkumine?teenus=kahjukasitlus">Saada päring <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div></article>
+</div>
+<div class="faq">
+<div class="eyebrow">Hea teada</div>
+<h2>Enne tulekut</h2>
+<details><summary>Mida pakkumise küsimiseks saata?</summary><p>Piisab lühikesest kirjeldusest ja kontaktist. Auto andmed ja foto on abiks, kuid need võid saata ka hiljem.</p></details><details><summary>Palju töö maksab?</summary><p>Seda saame öelda, kui teame, mis autol viga on ja kui palju tööd vaja teha. Saada kirjeldus ja võimaluse korral foto. Mõne töö puhul tuleb auto enne üle vaadata.</p></details><details><summary>Kus töökoda asub?</summary><p>Asume Põlvas, aadressil Vahtra 19. Enne tulekut helista <a class="text-link" href="tel:+37258534070">5853 4070</a> ja lepime sobiva aja kokku.</p></details>
+</div>
+</div></div></section>
+
+<section class="page" id="tehtud-tood" data-page="tehtud-tood" aria-labelledby="work-title">
+<header class="subhero"><div class="container">
+<div class="eyebrow">Tehtud tööd</div>
+<h1 id="work-title" tabindex="-1">Tehtud tööd</h1>
+<p>Siin on mõned meie tehtud kere- ja värvitööd. Pildile vajutades saad seda suuremalt vaadata.</p>
+</div></header>
+<div class="inner-content"><div class="container">
+<div class="gallery-grid">
+<button class="gallery-card" type="button" data-photo="0" aria-label="Vaata suuremalt: Volkswagen"><span class="photo-wrap"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t51.75761-15/499587635_17983290635820027_3852417639998437315_n.webp?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s1440x1440&amp;_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=Ziq6PmlGj_AQ7kNvwEYeu4L&amp;_nc_oc=AdrY6w8Q2R7HA8kS6fm5vWhujFDvbgVrvd6eIdD7tvhLKrBGB_0isSFkcVi85ENPpu6Hi2d4RkUhmFHw65bynB-T&amp;_nc_zt=23&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=2ZDE02tTzmrU2eEiHHwTvQ&amp;_nc_ss=7b289&amp;oh=00_AQRn_xF0jtEIW7kPeago8RHQufjnQvIZT5X4Oahzclzusw&amp;oe=6AF0F288" alt="Volkswageni esiosa ja värvipinna viimistlus" width="1440" height="1440" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></span><span class="photo-caption"><span class="photo-category">Kere- ja värvitööd</span><strong>Volkswagen</strong></span></button><button class="gallery-card" type="button" data-photo="1" aria-label="Vaata suuremalt: Detailid enne värvimist"><span class="photo-wrap"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/611251564_18008496842820027_6273631306485423072_n.jpg?stp=dst-jpegr_tt6&amp;cstp=mx1440x1913&amp;ctp=s1440x1913&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=-gIsfxIEMBMQ7kNvwGXpAi3&amp;_nc_oc=Adq_FSzmIYU62Ttiam7uckR8xjBmrTl_TQPpSGttN99JlXgYVT3uJR27-WG5-Ry47seoxPuzTfw3VCE3VKLCRmBp&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=q2a9FmUhqT7PmdZ0yfKPJQ&amp;_nc_ss=7b289&amp;oh=00_AQTwjmR0mDEVJeXJPzZxvUdcvDlR1DEcdFCloRcFESDPZg&amp;oe=6AF0D130" alt="Krunditud veokidetailid Vahtra Auto värvimiskambris" width="1440" height="1913" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></span><span class="photo-caption"><span class="photo-category">Ettevalmistus</span><strong>Detailid enne värvimist</strong></span></button><button class="gallery-card" type="button" data-photo="2" aria-label="Vaata suuremalt: Detailid pärast värvimist"><span class="photo-wrap"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/610539276_18008496851820027_6850134926643574051_n.jpg?stp=dst-jpegr_tt6&amp;cstp=mx1440x1913&amp;ctp=s1440x1913&amp;_nc_cat=106&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=b87Whihm4P0Q7kNvwHL0nfk&amp;_nc_oc=AdqVPtk84C7rnsahBo0-9vtBjDpWuBlcMfk8JfCNaebDTj4zSdQAQ_OrSnu2cWBwSCYfhxmbLe-BfO12KiLD5XrG&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=sIHMmHEs4_eE4utfQDMW8g&amp;_nc_ss=7b289&amp;oh=00_AQQwXqyMahLqm-_g5vkaKGceuUBbk0rTcaPypJak0UgEag&amp;oe=6AF0CBD5" alt="Roheliseks värvitud veokidetailid värvimiskambris" width="1440" height="1913" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></span><span class="photo-caption"><span class="photo-category">Värvimine</span><strong>Detailid pärast värvimist</strong></span></button><button class="gallery-card" type="button" data-photo="3" aria-label="Vaata suuremalt: Scania"><span class="photo-wrap"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/610599651_18008496824820027_7176358757351011870_n.webp?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s1440x1440&amp;_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=HGWKnHX8SrUQ7kNvwEV7mPP&amp;_nc_oc=AdrKGHVqV96Mk7NMnjXUqkSmDLjoar8d3S0tbkKLx4i4nuxivZ65okjuH70fnEM2140pzsJmGWIQ6XV0cCxBOWOh&amp;_nc_zt=23&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=J0yrwKUFbD5DLlHlOr8rOQ&amp;_nc_ss=7b289&amp;oh=00_AQTSXkdQTxNsV63bMEhGDrGphVa5Z0EkrekB5YKTSz5W-A&amp;oe=6AF0C1C0" alt="Roheline Scania veok pärast detailide värvimist" width="1440" height="1440" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></span><span class="photo-caption"><span class="photo-category">Valmis töö</span><strong>Scania</strong></span></button><button class="gallery-card" type="button" data-photo="4" aria-label="Vaata suuremalt: Volkswageni esiosa"><span class="photo-wrap"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t51.75761-15/500117077_17983290626820027_813958067477839246_n.webp?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s1440x1440&amp;_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=bFHkr9WFs54Q7kNvwFIVlHN&amp;_nc_oc=AdrmZMDeSYABuAuxuZ7jKmOLuUn0JjnRBkutN3RkWjnhuVsoZrXBQ40fnywOTfnNtT5ifYwBUCbBMenVAKLIduja&amp;_nc_zt=23&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=vybLo9-hMAu6AOKAjfiQQw&amp;_nc_ss=7b289&amp;oh=00_AQT7VoI4zUxaPz9vIhG73vHxNNTi208CZa9RXHOsJdzcvA&amp;oe=6AF0C18B" alt="Hõbedane Volkswagen Vahtra Auto tööde galeriist" width="1440" height="1440" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></span><span class="photo-caption"><span class="photo-category">Viimistlus</span><strong>Volkswageni esiosa</strong></span></button>
+</div>
+<div class="gallery-note">
+<p>Uusi tööpilte lisame ka Facebooki ja Instagrami.</p>
+<div class="social-links">
+<a href="https://www.facebook.com/Vahtraauto/" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 22v-9h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.5A23 23 0 0 0 15 1c-3 0-5 1.8-5 5v3H7v4h3v9"/></svg><span>Facebook<span class="sr-only"> (avaneb uuel vahelehel)</span></span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a><a href="https://www.instagram.com/vahtraauto/" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg><span>Instagram<span class="sr-only"> (avaneb uuel vahelehel)</span></span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div>
+</div>
+<a class="btn btn-primary" href="#pakkumine">Küsi oma autole pakkumist <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div></div></section>
+
+<section class="page" id="ettevottest" data-page="ettevottest" aria-labelledby="about-title">
+<header class="subhero"><div class="container">
+<div class="eyebrow">Ettevõttest</div>
+<h1 id="about-title" tabindex="-1">Vahtra Auto OÜ</h1>
+<p>Autoremont ning kere- ja värvitööd Põlvas, Vahtra 19.</p>
+</div></header>
+<div class="inner-content"><div class="container about-grid">
+<div class="about-box">
+<div class="eyebrow">Meist</div>
+<h2>Töökoda Põlvas.</h2>
+<p>Vahtra Auto OÜ alustas 2022. aastal. Meie töökoda asub Põlvas, aadressil Vahtra 19.</p>
+<p>Remondime ja hooldame autosid, teeme kere- ja värvitöid ning taastame avariilisi autosid. Tegeleme ka liiklus- ja kaskokahjude käsitlusega.</p>
+<p>Kui soovid auto remonti tuua, helista või kirjuta. Räägime läbi, mida vaja teha, ja lepime sobiva aja kokku.</p>
+<dl class="about-facts">
+<div>
+<dt>Ettevõte</dt>
+<dd>Vahtra auto OÜ</dd>
+</div>
+<div>
+<dt>Registrikood</dt>
+<dd>16545351</dd>
+</div>
+<div>
+<dt>KMKR number</dt>
+<dd>EE102809316</dd>
+</div>
+<div>
+<dt>Asukoht</dt>
+<dd>Vahtra 19, Põlva</dd>
+</div>
+</dl>
+</div>
+<figure class="about-photo"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/610539276_18008496851820027_6850134926643574051_n.jpg?stp=dst-jpegr_tt6&amp;cstp=mx1440x1913&amp;ctp=s1440x1913&amp;_nc_cat=106&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=b87Whihm4P0Q7kNvwHL0nfk&amp;_nc_oc=AdqVPtk84C7rnsahBo0-9vtBjDpWuBlcMfk8JfCNaebDTj4zSdQAQ_OrSnu2cWBwSCYfhxmbLe-BfO12KiLD5XrG&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=sIHMmHEs4_eE4utfQDMW8g&amp;_nc_ss=7b289&amp;oh=00_AQQwXqyMahLqm-_g5vkaKGceuUBbk0rTcaPypJak0UgEag&amp;oe=6AF0CBD5" width="1440" height="1913" alt="Vahtra Auto värvimiskambris värvitud veokidetailid" loading="lazy" decoding="async"><figcaption>Detailide värvimine Vahtra Auto töökojas.</figcaption></figure>
+</div></div></section>
+
+<section class="page" id="kontakt" data-page="kontakt" aria-labelledby="contact-title">
+<header class="subhero"><div class="container">
+<div class="eyebrow">Kontakt</div>
+<h1 id="contact-title" tabindex="-1">Kirjuta või helista.</h1>
+<p>Räägi, mis autoga on tegu ja millega abi vajad.</p>
+</div></header>
+<div class="inner-content"><div class="container contact-grid">
+<div class="contact-box">
+<div class="eyebrow">Vahtra Auto OÜ</div>
+<h2>Vahtra Auto</h2>
+<p class="contact-person">Karl Kösta Veskus</p>
+<div class="contact-data">
+<a class="contact-link" href="tel:+37258534070"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7A2 2 0 0 1 22 16.9Z"/></svg><span>+372 5853 4070</span></a><a class="contact-link" href="mailto:vahtraauto@gmail.com"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 6 9 7 9-7"/></svg><span>vahtraauto@gmail.com</span></a><a class="contact-link" href="https://www.google.com/maps/search/?api=1&amp;query=Vahtra+19+P%C3%B5lva" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Vahtra 19, Põlva, 63303</span></a>
+</div>
+<div class="social-links">
+<a href="https://www.facebook.com/Vahtraauto/" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 22v-9h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.5A23 23 0 0 0 15 1c-3 0-5 1.8-5 5v3H7v4h3v9"/></svg><span>Facebook<span class="sr-only"> (avaneb uuel vahelehel)</span></span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a><a href="https://www.instagram.com/vahtraauto/" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg><span>Instagram<span class="sr-only"> (avaneb uuel vahelehel)</span></span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div>
+</div>
+<div class="contact-prompt">
+<div class="eyebrow">Tule töökotta</div>
+<h2>Leia meid Põlvast.</h2>
+<p>Helista enne tulekut, et saaksime sulle sobiva aja leida.</p>
+<div class="location-card">
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><h3>Vahtra 19</h3>
+<p>Põlva linn, Põlva maakond · 63303</p>
+<a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Vahtra+19+P%C3%B5lva" target="_blank" rel="noopener noreferrer">Ava Google Mapsis <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div>
+</div>
+</div></div></section>
+
+<section class="page" id="pakkumine" data-page="pakkumine" aria-labelledby="quote-title">
+<header class="subhero"><div class="container">
+<div class="eyebrow">Küsi pakkumist</div>
+<h1 id="quote-title" tabindex="-1">Saada meile päring.</h1>
+<p>Kirjuta, mis autol viga on, ja jäta telefon või e-post. Võimaluse korral lisa foto.</p>
+</div></header>
+<div class="inner-content"><div class="container"><div class="quote-box">
+<div class="quote-info">
+<div class="eyebrow">Küsi pakkumist</div>
+<h2>Kirjuta, millega abi vajad.</h2>
+<p>Kirjuta, mis autoga on tegu ja mida oleks vaja teha. Kui kerel on kahjustus, lisa võimaluse korral foto.</p>
+<div class="contact-data">
+<a class="contact-link" href="tel:+37258534070"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7A2 2 0 0 1 22 16.9Z"/></svg><span>5853 4070</span></a><a class="contact-link" href="mailto:vahtraauto@gmail.com"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 6 9 7 9-7"/></svg><span>vahtraauto@gmail.com</span></a>
+</div>
+<p class="small-note">Pakkumise küsimine ei kohusta sind tööd tellima.</p>
+<div class="social-links">
+<a href="https://www.facebook.com/Vahtraauto/" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 22v-9h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.5A23 23 0 0 0 15 1c-3 0-5 1.8-5 5v3H7v4h3v9"/></svg><span>Facebook<span class="sr-only"> (avaneb uuel vahelehel)</span></span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a><a href="https://www.instagram.com/vahtraauto/" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg><span>Instagram<span class="sr-only"> (avaneb uuel vahelehel)</span></span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div>
+</div>
+<div class="form-wrap">
+<!-- Päringute saaja: vahtraauto@gmail.com. FormSubmit vajab pärast avaldamist selle aadressi ühekordset kinnitamist. Testpäringut ei ole automaatselt saadetud. -->
+<form id="quote-form" action="https://formsubmit.co/vahtraauto@gmail.com" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="_subject" value="Uus päring Vahtra Auto veebilehelt"><input type="hidden" name="_template" value="table"><input type="hidden" name="_next" id="form-next" value="" disabled><input type="hidden" name="_url" id="form-url" value="" disabled><input type="hidden" name="email" id="reply-email" value="" disabled><input type="hidden" name="Teenus" id="form-service" value="Üldine päring"><input class="honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div id="chosen-service" class="chosen-service" hidden>
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg><span id="chosen-service-label"></span><button type="button" id="clear-service" aria-label="Tühista teenuse valik"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 6 12 12M6 18 18 6"/></svg></button>
+</div>
+<div class="form-row">
+<label for="customer-name">Nimi<input id="customer-name" name="Nimi" type="text" autocomplete="name" placeholder="Sinu nimi" maxlength="100" required></label><label for="customer-contact">Telefon või e-post<input id="customer-contact" name="Kontakt" type="text" autocomplete="on" autocapitalize="none" spellcheck="false" placeholder="Telefon või e-posti aadress" maxlength="160" required></label>
+</div>
+<label for="customer-car"><span>Auto <span class="optional">(soovi korral)</span></span><input id="customer-car" name="Auto" type="text" placeholder="Mark, mudel või registrinumber" maxlength="120"></label>
+<label for="customer-message">Mida on vaja teha?<textarea id="customer-message" name="Sõnum" placeholder="Näiteks: tagumisel kaitseraual on kriim. Soovin selle värvimiseks pakkumist." maxlength="4000" required></textarea></label>
+<label for="customer-photo"><span>Lisa foto <span class="optional">(soovi korral)</span></span><input id="customer-photo" name="attachment" type="file" accept="image/jpeg,image/png,image/webp"><span class="upload-note">JPG, PNG või WebP · kuni 10 MB</span></label><p class="file-status" id="file-status" role="status" aria-live="polite" hidden></p>
+<button class="btn btn-primary submit-btn" type="submit">Saada päring <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></button>
+<p class="form-note">Päringu saadame aadressile <a href="mailto:vahtraauto@gmail.com">vahtraauto@gmail.com</a>. Sinu kontaktandmeid kasutame päringule vastamiseks. <a href="#privaatsus">Privaatsusteave</a>.</p>
+</form>
+</div>
+</div></div></div></section>
+
+<section class="page" id="privaatsus" data-page="privaatsus" aria-labelledby="privacy-title">
+<header class="subhero"><div class="container">
+<div class="eyebrow">Privaatsusteave</div>
+<h1 id="privacy-title" tabindex="-1">Sinu päringu andmed.</h1>
+<p>Millised andmed päringuga edastatakse ja milleks neid kasutatakse.</p>
+</div></header>
+<div class="inner-content"><div class="container"><div class="privacy-text">
+<h2>Kes andmeid saab?</h2>
+<p>Päringu saaja ja andmete vastutav töötleja on Vahtra auto OÜ, registrikood 16545351, Vahtra 19, Põlva, 63303. Ühendust saab võtta aadressil <a href="mailto:vahtraauto@gmail.com">vahtraauto@gmail.com</a> või telefonil <a href="tel:+37258534070">5853 4070</a>.</p>
+<h2>Mida päring sisaldab?</h2>
+<p>Vormiga edastatakse sinu sisestatud nimi, kontakt ja sõnum ning soovi korral auto andmed ja lisatud foto. Andmeid kasutatakse päringule vastamiseks, töö täpsustamiseks ja kokkulepitud töö tegemiseks.</p>
+<h2>Kuidas päring liigub?</h2>
+<p>Vorm edastatakse turvalise HTTPS-ühendusega FormSubmiti teenusele, mis saadab selle Vahtra Auto e-postile. Vormis olevad andmed ja foto liiguvad selle teenuse kaudu. Vormi saatmisel võib teenus kasutada rämpsposti tõkestamiseks kontrolli. Soovi korral saad kirjutada meile ka otse e-postiga. Tutvu <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">FormSubmiti privaatsusteabega</a>.</p>
+<h2>Kas siin kasutatakse jälgimist?</h2>
+<p>Lehel pole analüütika- ega reklaamijälgimist. Tööfotod ja logo laaditakse Facebooki pildiserveritest. Nende päringute töötlemisele kehtivad Meta tingimused. Sotsiaalmeedia- või kaardilingi avamisel kehtivad vastava teenuse tingimused.</p>
+<h2>Küsimused andmete kohta</h2>
+<p>Kui soovid oma päringu andmetega tutvuda, neid parandada või paluda nende kustutamist, kirjuta <a href="mailto:vahtraauto@gmail.com">vahtraauto@gmail.com</a>. Teenuse osutamisega seotud dokumentide säilitamine võib olla vajalik seadusest või lepingust tulenevate kohustuste täitmiseks.</p>
+<a class="text-link" href="#pakkumine">Tagasi päringuvormi <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div></div></div></section>
+
+<section class="page" id="aitah" data-page="aitah" aria-labelledby="thanks-title"><div class="inner-content"><div class="container"><div class="success-box">
+<span class="success-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg></span><h1 id="thanks-title" tabindex="-1">Aitäh päringu eest!</h1>
+<p>Võtame sinuga ühendust päringusse jäetud kontaktil. Kui soovid midagi lisada, helista <a class="text-link" href="tel:+37258534070">5853 4070</a> või kirjuta <a class="text-link" href="mailto:vahtraauto@gmail.com">vahtraauto@gmail.com</a>.</p>
+<a class="btn btn-primary" href="#avaleht">Tagasi avalehele <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</div></div></div></section>
+</main>
+
+<footer><div class="container">
+<div class="footer-top">
+<div class="footer-brand">
+<a class="brand" href="#avaleht" aria-label="Vahtra Auto – avaleht"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/297354398_108931111915317_3332901794311131188_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx932x932&amp;ctp=s932x932&amp;_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=6ee11a&amp;_nc_ohc=cBNOq56i5CgQ7kNvwGD9HJT&amp;_nc_oc=AdrX4FdbfJLadwhdbTRH2XTEaHWaTOa3M5g6cSAbBBMYnd0Gd5l9auxr8HuirgQHb0pJKxVPMwze3NlRINqcUUmK&amp;_nc_zt=23&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=5xFh9RUamlGufoAK_BPPlg&amp;_nc_ss=7b289&amp;oh=00_AQS3pfwl8c_yRR2HHsuLqNf0zFMOsfMtD4R_gypEkmAKgQ&amp;oe=6AF0D55B" width="932" height="932" alt="Vahtra Auto" decoding="async"></a><p>Vahtra 19, Põlva<br><a href="tel:+37258534070">5853 4070</a> · <a href="mailto:vahtraauto@gmail.com">vahtraauto@gmail.com</a></p>
+</div>
+<div class="footer-nav">
+<a href="#teenused">Teenused</a><a href="#tehtud-tood">Tehtud tööd</a><a href="#kontakt">Kontakt</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© <span id="copyright-year">2026</span> Vahtra Auto OÜ · Registrikood 16545351</p>
+<div class="footer-bottom-links">
+<a href="https://www.facebook.com/Vahtraauto/" target="_blank" rel="noopener noreferrer">Facebook</a><a href="https://www.instagram.com/vahtraauto/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="#privaatsus">Privaatsusteave</a><a href="#top" data-scroll-top>Tagasi üles</a>
+</div>
+</div>
+</div></footer>
+<dialog class="lightbox" id="photo-dialog" aria-labelledby="lightbox-title"><div class="lightbox-top">
+<h2 id="lightbox-title">Tööfoto</h2>
+<button class="lightbox-close" type="button" aria-label="Sulge foto"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 6 12 12M6 18 18 6"/></svg></button>
+</div>
+<div class="lightbox-stage">
+<button class="lightbox-nav previous" type="button" aria-label="Eelmine foto"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 5 7 7-7 7"/></svg></button><img id="lightbox-image" alt=""><button class="lightbox-nav next" type="button" aria-label="Järgmine foto"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 5 7 7-7 7"/></svg></button>
+</div>
+<p class="lightbox-bottom" id="lightbox-count" aria-live="polite"></p></dialog>
+
+<script>
+
+(() => {
+  'use strict';
+  const pages = Array.from(document.querySelectorAll('[data-page]'));
+  const nav = document.getElementById('main-nav');
+  const menu = document.querySelector('.menu-toggle');
+  const topbar = document.querySelector('.topbar');
+  const main = document.getElementById('main');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const mobile = window.matchMedia('(max-width: 800px)');
+  const services = { keretood: 'Kere- ja värvitööd', remont: 'Remont ja hooldus', kahjukasitlus: 'Kahjukäsitlus' };
+  const serviceInput = document.getElementById('form-service');
+  const serviceBadge = document.getElementById('chosen-service');
+  const serviceLabel = document.getElementById('chosen-service-label');
+  const titles = {
+    home: 'Vahtra Auto OÜ | Kere- ja värvitööd, autoremont Põlvas',
+    teenused: 'Teenused | Vahtra Auto OÜ', 'tehtud-tood': 'Tehtud tööd | Vahtra Auto OÜ',
+    ettevottest: 'Ettevõttest | Vahtra Auto OÜ', kontakt: 'Kontakt | Vahtra Auto OÜ',
+    pakkumine: 'Küsi pakkumist | Vahtra Auto OÜ', privaatsus: 'Privaatsusteave | Vahtra Auto OÜ', aitah: 'Aitäh päringu eest | Vahtra Auto OÜ'
+  };
+  const routes = {
+    '': { page: 'home' }, top: { page: 'home' }, avaleht: { page: 'home' },
+    teenused: { page: 'teenused' }, keretood: { page: 'teenused', target: 'keretood' },
+    remont: { page: 'teenused', target: 'remont' }, kahjukasitlus: { page: 'teenused', target: 'kahjukasitlus' },
+    'tehtud-tood': { page: 'tehtud-tood' }, ettevottest: { page: 'ettevottest' }, kontakt: { page: 'kontakt' },
+    pakkumine: { page: 'pakkumine' }, privaatsus: { page: 'privaatsus' }, aitah: { page: 'aitah' }
+  };
+  function setMenu(open) {
+    nav.classList.toggle('is-open', open);
+    menu.setAttribute('aria-expanded', String(open));
+    menu.setAttribute('aria-label', open ? 'Sulge menüü' : 'Ava menüü');
+  }
+  function setService(key) {
+    const label = Object.prototype.hasOwnProperty.call(services, key) ? services[key] : '';
+    serviceInput.value = label || 'Üldine päring';
+    serviceLabel.textContent = label;
+    serviceBadge.hidden = !label;
+  }
+  document.getElementById('clear-service').addEventListener('click', () => {
+    setService('');
+    document.getElementById('customer-name').focus();
+  });
+  menu.addEventListener('click', () => setMenu(menu.getAttribute('aria-expanded') !== 'true'));
+  nav.addEventListener('click', event => { if (event.target.closest('a')) setMenu(false); });
+  document.addEventListener('click', event => { if (!topbar.contains(event.target)) setMenu(false); });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') {
+      setMenu(false); menu.focus();
+    }
+  });
+  if (mobile.addEventListener) mobile.addEventListener('change', () => setMenu(false));
+
+  const dialog = document.getElementById('photo-dialog');
+  const galleryCards = Array.from(document.querySelectorAll('#tehtud-tood [data-photo]'));
+  const gallery = galleryCards.map(card => ({
+    src: card.querySelector('img').src, alt: card.querySelector('img').alt,
+    title: card.querySelector('.photo-caption strong').textContent
+  }));
+  let photoIndex = 0;
+  let returnFocus = null;
+  function changePhoto(index) {
+    photoIndex = (index + gallery.length) % gallery.length;
+    const item = gallery[photoIndex];
+    const image = document.getElementById('lightbox-image');
+    image.src = item.src; image.alt = item.alt;
+    document.getElementById('lightbox-title').textContent = item.title;
+    document.getElementById('lightbox-count').textContent = (photoIndex + 1) + ' / ' + gallery.length;
+  }
+  document.querySelectorAll('[data-photo]').forEach(card => card.addEventListener('click', () => {
+    if (typeof dialog.showModal !== 'function') return;
+    returnFocus = card; changePhoto(Number(card.dataset.photo));
+    dialog.showModal(); document.body.style.overflow = 'hidden';
+    dialog.querySelector('.lightbox-close').focus();
+  }));
+  dialog.querySelector('.lightbox-close').addEventListener('click', () => dialog.close());
+  dialog.querySelector('.previous').addEventListener('click', () => changePhoto(photoIndex - 1));
+  dialog.querySelector('.next').addEventListener('click', () => changePhoto(photoIndex + 1));
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+  dialog.addEventListener('keydown', event => {
+    if (event.key === 'ArrowRight') { event.preventDefault(); changePhoto(photoIndex + 1); }
+    if (event.key === 'ArrowLeft') { event.preventDefault(); changePhoto(photoIndex - 1); }
+  });
+  dialog.addEventListener('close', () => {
+    document.body.style.overflow = '';
+    if (returnFocus && returnFocus.isConnected && !returnFocus.closest('[hidden]')) returnFocus.focus();
+  });
+
+  function renderRoute(initial = false) {
+    const hash = window.location.hash.slice(1);
+    const question = hash.indexOf('?');
+    const path = question === -1 ? hash : hash.slice(0, question);
+    const params = new URLSearchParams(question === -1 ? '' : hash.slice(question + 1));
+    const route = Object.prototype.hasOwnProperty.call(routes, path) ? routes[path] : routes[''];
+    setMenu(false);
+    if (dialog.open) dialog.close();
+    pages.forEach(page => { page.hidden = page.dataset.page !== route.page; page.classList.remove('page-enter'); });
+    const current = pages.find(page => page.dataset.page === route.page);
+    document.title = titles[route.page];
+    nav.querySelectorAll('[data-nav-page]').forEach(link => {
+      if (link.dataset.navPage === route.page) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
+    if (route.page === 'pakkumine') setService(params.get('teenus') || '');
+    requestAnimationFrame(() => {
+      const target = route.target ? document.getElementById(route.target) : current.querySelector('h1');
+      if (route.target) target.scrollIntoView({ block: 'start', behavior: 'instant' });
+      else window.scrollTo({ top: 0, behavior: 'instant' });
+      if (!initial) {
+        const heading = route.target ? target.querySelector('h2') : target;
+        heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true });
+      }
+      if (!reducedMotion.matches) current.classList.add('page-enter');
+      topbar.classList.toggle('is-scrolled', window.scrollY > 20);
+    });
+  }
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    if (link.hasAttribute('data-scroll-top')) {
+      event.preventDefault(); window.scrollTo({ top: 0, behavior: reducedMotion.matches ? 'instant' : 'smooth' });
+    } else if (link.hasAttribute('data-skip')) {
+      event.preventDefault(); main.focus({ preventScroll: true }); main.scrollIntoView({ block: 'start' });
+    } else if ((link.getAttribute('href') || '').startsWith('#') && link.hash === location.hash) {
+      event.preventDefault(); renderRoute();
+    }
+  });
+  window.addEventListener('hashchange', () => renderRoute());
+  window.addEventListener('scroll', () => topbar.classList.toggle('is-scrolled', window.scrollY > 20), { passive: true });
+
+  const form = document.getElementById('quote-form');
+  const nameField = document.getElementById('customer-name');
+  const contact = document.getElementById('customer-contact');
+  const message = document.getElementById('customer-message');
+  const fileInput = document.getElementById('customer-photo');
+  const fileStatus = document.getElementById('file-status');
+  const submitButton = form.querySelector('button[type="submit"]');
+  const submitButtonContent = submitButton.innerHTML;
+  let isSubmitting = false;
+  window.addEventListener('pageshow', () => {
+    isSubmitting = false;
+    submitButton.disabled = false;
+    submitButton.innerHTML = submitButtonContent;
+    form.removeAttribute('aria-busy');
+  });
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const phonePattern = /^\+?[\d\s()\-]{5,26}$/;
+  [nameField, contact, message].forEach(field => field.addEventListener('input', () => field.setCustomValidity('')));
+  function checkFile() {
+    const file = fileInput.files[0];
+    fileInput.setCustomValidity(''); fileStatus.classList.remove('is-error');
+    fileStatus.hidden = !file;
+    if (!file) { fileStatus.textContent = ''; return true; }
+    let error = '';
+    if (file.size > 10000000) error = 'Foto on liiga suur. Vali kuni 10 MB suurune fail.';
+    else if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) error = 'Palun vali JPG-, PNG- või WebP-foto.';
+    fileStatus.textContent = error || file.name + ' · ' + (file.size / 1000000).toFixed(1) + ' MB';
+    fileStatus.classList.toggle('is-error', Boolean(error)); fileInput.setCustomValidity(error);
+    return !error;
+  }
+  fileInput.addEventListener('change', checkFile);
+  form.addEventListener('submit', event => {
+    if (isSubmitting) { event.preventDefault(); return; }
+    nameField.value = nameField.value.trim(); contact.value = contact.value.trim(); message.value = message.value.trim();
+    nameField.setCustomValidity(nameField.value ? '' : 'Palun sisesta oma nimi.');
+    message.setCustomValidity(message.value ? '' : 'Palun kirjelda lühidalt oma auto muret.');
+    const value = contact.value;
+    const digits = value.replace(/\D/g, '');
+    const validEmail = emailPattern.test(value);
+    const validPhone = phonePattern.test(value) && digits.length >= 5 && digits.length <= 15;
+    contact.setCustomValidity(validEmail || validPhone ? '' : 'Palun sisesta telefoninumber või korrektne e-posti aadress.');
+    checkFile();
+    if (!form.checkValidity()) { event.preventDefault(); form.reportValidity(); return; }
+    if (!/^https?:$/.test(location.protocol)) {
+      event.preventDefault();
+      fileStatus.hidden = false; fileStatus.classList.add('is-error');
+      fileStatus.textContent = 'Vormi saatmiseks ava leht veebiaadressilt. Võid kirjutada ka otse: vahtraauto@gmail.com.';
+      fileStatus.scrollIntoView({ block: 'nearest' }); return;
+    }
+    const reply = document.getElementById('reply-email');
+    reply.disabled = !validEmail; reply.value = validEmail ? value : '';
+    const next = document.getElementById('form-next');
+    const source = document.getElementById('form-url');
+    const url = new URL(location.href); url.hash = 'aitah';
+    next.value = url.href; next.disabled = false;
+    url.hash = 'pakkumine'; source.value = url.href; source.disabled = false;
+    isSubmitting = true;
+    submitButton.disabled = true;
+    submitButton.textContent = 'Saadan…';
+    form.setAttribute('aria-busy', 'true');
+    // Native multipart POST: FormSubmiti enda kinnitus- ja rämpspostikontroll jäävad kasutusse.
+    // Saatmisest ei kuvata kohalikku võltsitud õnnestumisteadet.
+  });
+  document.getElementById('copyright-year').textContent = String(new Date().getFullYear());
+  document.documentElement.classList.add('js'); menu.hidden = false; renderRoute(true);
+})();
+
+</script>
+</body>
+</html>
 
