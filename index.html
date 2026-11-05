@@ -2374,6 +2374,8 @@
       return;
     }
     if (validEmail) fields.set('email', value);
+    const confirmationUrl = new URL('/thank-you', form.action).href;
+    fields.set('redirect', confirmationUrl);
     const original = fileInput.files[0];
     fields.delete('attachment');
 
@@ -2400,11 +2402,12 @@
         headers: { Accept: 'application/json' },
         body: fields,
         credentials: 'omit',
-        redirect: 'error',
         signal: controller.signal
       });
-      const result = await response.json().catch(() => null);
-      if (!response.ok || !(result?.success === true || result?.success === 'true')) {
+      const confirmedByRedirect = response.redirected && response.url === confirmationUrl;
+      const result = confirmedByRedirect ? null : await response.json().catch(() => null);
+      const confirmedByJson = result?.success === true || result?.success === 'true';
+      if (!response.ok || (!confirmedByRedirect && !confirmedByJson)) {
         failureMessage = 'Saatmisteenus ei kinnitanud päringu vastuvõtmist. Sinu tekst on alles. Saada päring e-postiga.';
         throw new Error('Submission not confirmed');
       }
