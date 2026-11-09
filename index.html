@@ -1435,25 +1435,57 @@
     .home-contact-actions { display:flex; gap:10px; flex-wrap:wrap; }
     .service-steps { color:var(--muted); margin:0 0 22px; padding-left:1.35rem; }
     .service-steps li + li { margin-top:5px; }
-    .funding { background:#fff; border-top:1px solid var(--line); padding:55px 0; }
-    .funding-inner { display:grid; grid-template-columns:minmax(220px,290px) minmax(0,1fr); align-items:center; gap:clamp(20px,5vw,65px); }
+    .funding { padding:8px 0 42px; }
+    .funding-inner {
+      display:grid;
+      grid-template-columns:clamp(180px,22vw,248px) minmax(0,1fr);
+      align-items:center;
+      gap:clamp(24px,4vw,48px);
+      padding:clamp(22px,3.5vw,42px);
+      border:1px solid var(--line);
+      border-radius:18px;
+      background:#fff;
+    }
     .funding-logo img { width:100%; height:auto; }
-    .funding-text .eyebrow { margin-bottom:10px; }
-    .funding-text .eyebrow::before { display:none; }
-    .funding-text h2 { max-width:27ch; font-size:clamp(1.55rem,3vw,2.2rem); line-height:1.18; margin-bottom:15px; }
-    .funding-text p:not(.eyebrow) { color:var(--muted); max-width:72ch; }
-    .funding-text p + p { margin-top:12px; }
-    .funding-text strong { color:var(--text); }
+    .funding-label {
+      margin-bottom:7px;
+      color:var(--muted);
+      font-size:.72rem;
+      font-weight:700;
+      letter-spacing:.09em;
+      text-transform:uppercase;
+    }
+    .funding-text h2 {
+      margin-bottom:10px;
+      font-size:clamp(1.35rem,2.3vw,1.8rem);
+      line-height:1.2;
+      letter-spacing:-.025em;
+      text-wrap:pretty;
+    }
+    .funding-description { color:var(--muted); max-width:72ch; font-size:.94rem; }
+    .funding-details {
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 36px;
+      margin-top:16px;
+      padding-top:13px;
+      border-top:1px solid var(--line);
+    }
+    .funding-details dt { color:var(--muted); font-size:.75rem; }
+    .funding-details dd { font-size:.9rem; font-weight:700; }
+    .funding-details .funding-amount { font-size:1.08rem; line-height:1.38; }
     @media(max-width:800px) {
       .home-gallery,.gallery-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
       .home-contact-actions { width:100%; }
       .home-contact-actions .btn { width:auto; }
       .service-item { gap:15px; }
     }
+    @media(max-width:660px) {
+      .funding { padding:0 0 28px; }
+      .funding-inner { grid-template-columns:1fr; gap:8px; }
+      .funding-logo img { width:min(220px,100%); margin-inline:auto; }
+    }
     @media(max-width:600px) {
-      .funding { padding:32px 0 39px; }
-      .funding-inner { grid-template-columns:1fr; gap:13px; }
-      .funding-logo img { width:min(240px,100%); }
       .home-gallery .photo-wrap,.gallery-grid .photo-wrap { height:clamp(120px,36vw,220px); }
       .home-gallery,.gallery-grid { gap:12px; }
       .gallery-card { border-radius:13px; }
@@ -1573,17 +1605,28 @@
     <div class="facebook-posts" id="facebook-posts" hidden></div>
     <div class="facebook-empty" id="facebook-empty"><div><h3>Vaata, mis meil töökojas teoksil</h3><p>Jagame Facebookis pilte tehtud töödest ja tööde käigust.</p></div><a class="btn btn-primary" href="https://www.facebook.com/Vahtraauto/" target="_blank" rel="noopener noreferrer">Vaata Facebookis<span class="sr-only"> (avaneb uuel vahelehel)</span></a></div>
   </div></section>
-  <section class="funding" id="toetus" aria-labelledby="funding-title"><div class="container funding-inner">
-    <div class="funding-logo">
-      <img src="assets/vahtra/kaasrahastanud-euroopa-liit.png" width="1022" height="594" alt="Kaasrahastanud Euroopa Liit. Eesti tuleviku heaks." loading="lazy" decoding="async">
+  <section class="funding" id="toetus" aria-labelledby="funding-title">
+    <div class="container funding-inner">
+      <div class="funding-logo">
+        <img src="assets/vahtra/kaasrahastanud-euroopa-liit.png" width="1022" height="594" alt="Kaasrahastanud Euroopa Liit. Eesti tuleviku heaks." loading="lazy" decoding="async">
+      </div>
+      <div class="funding-text">
+        <p class="funding-label">Euroopa Liidu toetus</p>
+        <h2 id="funding-title">Teenusemahu suurendamiseks töökoja rekonstrueerimine</h2>
+        <p class="funding-description">Vahtra Auto OÜ uuendab Põlvas Vahtra tn 19 asuvat töökoda. Hoone saab uue põranda, põrandakütte, kanalisatsiooni ja vahelae ning soojustatud sokli ja fassaadi. Pärast uuendusi saab töökoda pakkuda sõidukite hooldus-, remondi- ja keretöid aastaringselt täies mahus.</p>
+        <dl class="funding-details">
+          <div>
+            <dt>Toetusmeede</dt>
+            <dd>Kagu-Eesti ettevõtluse arengutoetus</dd>
+          </div>
+          <div>
+            <dt>Toetuse summa</dt>
+            <dd class="funding-amount">59&nbsp;731,69&nbsp;€</dd>
+          </div>
+        </dl>
+      </div>
     </div>
-    <div class="funding-text">
-      <p class="eyebrow">Euroopa Liidu toetus</p>
-      <h2 id="funding-title">Teenusemahu suurendamiseks töökoja rekonstrueerimine</h2>
-      <p>Vahtra Auto OÜ projekti kaasrahastab Euroopa Liit Kagu-Eesti ettevõtluse arengutoetuse meetmest summas <strong>59&nbsp;731,69&nbsp;€</strong>.</p>
-      <p>Vahtra Auto OÜ rekonstrueerib Põlvas Vahtra tn 19 asuva autotöökoja hoone. Uuendatakse põrand, rajatakse põrandaküte ja kanalisatsioon, soojustatakse sokkel ja fassaad ning ehitatakse välja vahelagi. Investeeringu tulemusena saab ettevõte pakkuda sõidukite hooldus-, remondi- ja keretöid aastaringselt täies mahus.</p>
-    </div>
-  </div></section>
+  </section>
 </section>
 
 <section class="page" id="teenused" data-page="teenused" aria-labelledby="services-title">
